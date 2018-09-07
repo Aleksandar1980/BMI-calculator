@@ -1,2 +1,2 @@
 # BMI-calculator
-Calculate yor bodu mass index with this simple calculator written in javascript
+Calculate yor body mass index with this simple calculator written in javascript
