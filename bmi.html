@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+<head>
+    <title> Simple Body mass index caclculator</title>
+	 <script>
+	  function myFunction() {
+	    x=+document.getElementById("weight").value;	
+		y=+document.getElementById("height").value;
+		document.getElementById("scale").style.display="block";
+		alert("Your BMI is " +(x/(y*y*0.0001)));
+		
+	  }
+	 </script>
+</head>
+<body>
+<h1>BMI caclculator</h1>
+<label>Enter your weight</label>
+<input type="number" id="weight"/>
+
+<label> Enter your height</label>
+<input type="number" id="height"/>
+<input type="button" value="calculate" onclick="myFunction()"/>
+<img id="scale" src="scale.jpg" style="display:none;"/>
+</body>
+
+</html>
